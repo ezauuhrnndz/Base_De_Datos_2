@@ -142,3 +142,5 @@ inner join inscripciones i on e.id_estudiantes = i.id_estudiante
 inner join grupos g on i.id_grupo = g.id_grupo
 inner join materias m on g.id_materia = m.id_materia;
 
+
+
